@@ -17,3 +17,4 @@ jobs:
       - name: Build Docker Image
         run: docker build . --file Dockerfile --build-arg app_secret="\${{ env.APP_SECRET }}" -t vault-action-exampleapp
 
+
